@@ -8,9 +8,11 @@ h3{
 	margin-bottom:20px;
 }
 nav {
+	display:flex;
 	background-color:#FFc000;
 	height:50px;
 	margin-bottom:30px;
+	justify-content: space-between;
 }
 ul{
 	margin-right:10px;
@@ -36,20 +38,19 @@ a{
 	margin-top:15px;
 	margin-left:30px;
 	color:black;	
-	float: left;
 }
 
 #rightSide {
 	margin-top:15px;
-	float:right;
 	color:black;
 }
 section{
-	clear:both;
 	text-align:center;
 }
 #container{
-	display:inline-block;
+	display:flex;
+	justify-content: center;
+
 }
 .card{
 	padding: 20px;
@@ -58,6 +59,5 @@ section{
 	border-radius:5px;
   	margin-right: 10px;
   	margin-top: 10px;
-  	float:left;
   	width:200px;
 }
